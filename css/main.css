@@ -33,3 +33,16 @@ html {
   ul {
     list-style: none;
   }
+
+  img {
+    max-width: 100%;
+  }
+
+  .component-img {
+    border: 1px solid grey;
+    overflow-x: auto;
+  }
+
+  .component-code {
+    border: 1px solid grey;
+  }
