@@ -48,7 +48,14 @@ html {
     border: 1px solid grey;
     padding: 1rem;
   }
+/* Main Image Shape ======================== */
+.main-product-img {
+    border: 1.5px solid var(--black);
+    border-radius: 75%/100%;
+    width: 75%;
+}
 
+/* Buttons ================================= */
   a {
     text-decoration: none;
     color: black;
@@ -76,3 +83,40 @@ html {
     padding-bottom: 1rem;
     text-align: center;
   }
+
+
+  /* Ad Bar ================================== */
+  .ad-bar {
+    background-color: var(--neon-green);
+}
+
+.new-emphasis {
+    background-color: black;
+    max-width: 3rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 0.3rem;
+    font-size: 0.6rem;
+    padding: 0.3rem;
+}
+.buoy-box-icon {
+    max-width: 2rem;
+}
+
+.ad-bar-bold {
+    font-weight: bold;
+}
+
+.ad-flex {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-text {
+    padding-right: 0.3rem;
+    padding-left: 0.3rem;
+}
