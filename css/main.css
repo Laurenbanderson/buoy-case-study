@@ -118,6 +118,17 @@ html {
     font-weight: 500;
   }
 
+  .button-white {
+    background-color: white;
+    border: 1.5px solid var(--black);
+    border-radius: 2rem;
+    padding-right: 5.5rem;
+    padding-left: 5.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+
 
   /* Ad Bar ================================== */
   .ad-bar {
@@ -155,7 +166,7 @@ html {
     padding-left: 0.3rem;
 }
 
- /* Product ================================== */
+/* Product ================================== */
 .product-card {
     width: 23%;
     position: relative;
@@ -192,4 +203,37 @@ html {
 
 .product-description {
     font-size: 0.9rem;
+}
+
+/* CTA ================================== */
+.cta-card {
+    background-color: var(--tan);
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.email-bar {
+    border: 1.5px solid var(--black);
+    background-color: white;
+    color: var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 20rem;
+    width: 100%;
+    padding: 0rem 1rem;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.cta-body-text, .cta-heading {
+    margin: 0.4rem;
+}
+
+.cta-heading {
+    font-weight: 500;
+    font-size: 1.5rem;
 }
