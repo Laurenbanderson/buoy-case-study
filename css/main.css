@@ -19,6 +19,10 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+  /* Product Titles ==== */
+  h3 {
+    font-weight: 450;
+  }
 
   h4 {
     font-size: 2rem;
@@ -47,6 +51,11 @@ html {
   .component-code {
     border: 1px solid grey;
     padding: 1rem;
+  }
+
+  .component-name {
+    font-size: 1.5rem;
+    font-weight: 600;
   }
 /* Main Image Shape ======================== */
 .main-product-img {
@@ -119,4 +128,43 @@ html {
 .ad-text {
     padding-right: 0.3rem;
     padding-left: 0.3rem;
+}
+
+ /* Product ================================== */
+.product-card {
+    width: 23%;
+    position: relative;
+    display: inline-block;
+    background-color: var(--tan);
+    padding: 1rem;
+}
+
+
+.corner-emoji {
+    border: 2px solid var(--green);
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    top: -0.9rem;
+    left: 0.4rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-card-img {
+    display: block;
+    border-radius: 1rem;
+    border: 1.5px solid var(--black);
+  }
+
+.product-rating {
+    font-size: 0.8rem;
+}
+
+.product-description {
+    font-size: 0.9rem;
 }
