@@ -61,7 +61,7 @@ html {
 .main-product-img {
     border: 1.5px solid var(--black);
     border-radius: 75%/100%;
-    width: 75%;
+    width: 30%;
 }
 
 /* Buttons ================================= */
@@ -236,4 +236,48 @@ html {
 .cta-heading {
     font-weight: 500;
     font-size: 1.5rem;
+}
+
+/* Review card ================================== */
+.review-card {
+  width: 15rem;
+}
+
+.review-image {
+  border-radius: 1rem;
+  border: 1.5px solid var(--black);
+}
+
+.review-heading {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.tags {
+  display: flex;
+}
+
+.tag-names {
+  background-color: var(--black);
+  border: 1.5px solid var(--black);
+  color: white;
+  border-radius: 2rem;
+  padding-right: 0.7rem;
+  padding-left: 0.7rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  text-align: center;
+  font-size: 0.6rem;
+  margin: 0.1rem;
+}
+
+.review-text {
+  font-size: 0.75rem;
+}
+
+.review-name {
+  font-weight: 500;
+  font-size: 0.75rem;
 }
