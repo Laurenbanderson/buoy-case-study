@@ -288,6 +288,21 @@ html {
   flex-direction: row;
 }
 .heading-block-3 {
-  width: 45rem;
-  border: 1.5px solid var(--black);
+  width: 70rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.heading-3 {
+  font-size: 1rem; 
+}
+.emoji-3,
+.secondary-heading-3,
+.link-3 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.link-3 {
+  text-decoration: underline;
 }
