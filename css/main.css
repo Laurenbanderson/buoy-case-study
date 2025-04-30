@@ -357,7 +357,7 @@ html {
 
 /* Footer ================================== */
 .main-footer {
-  background-color: #f4f4f4;
+  background-color: var(--tan);
   padding: 2rem;
   color: #333;
   font-family: sans-serif;
