@@ -306,3 +306,51 @@ html {
 .link-3 {
   text-decoration: underline;
 }
+
+/* Main Header ================================== */
+
+.main-header {
+  background-color: white;
+  padding: 0.75rem 1.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.nav-logo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-img {
+  max-height: 2.5rem;
+}
+
+.profile-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
