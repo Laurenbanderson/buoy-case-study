@@ -49,8 +49,7 @@ html {
   }
 
   .component-code {
-    border: 1px solid grey;
-    padding: 1rem;
+
   }
 
   .component-name {
@@ -61,8 +60,15 @@ html {
 .main-product-img {
     border: 1.5px solid var(--black);
     border-radius: 75%/100%;
-    width: 30%;
+    min-width: 20rem;
 }
+
+.first-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
 
 /* Buttons ================================= */
   a {
@@ -74,6 +80,18 @@ html {
     background-color: var(--tan);
     border: 1.5px solid var(--black);
     border-radius: 2rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+
+  .button-hover {
+    background-color: var(--black);
+    border: 1.5px solid var(--black);
+    color: white;
+    border-radius: 2rem;
     padding-right: 4.5rem;
     padding-left: 4.5rem;
     padding-top: 1rem;
@@ -81,7 +99,11 @@ html {
     text-align: center;
   }
 
-  .button-hover {
+  .lm-button {
+    padding-top: 2rem;
+  }
+
+  .lm-button a:hover {
     background-color: var(--black);
     border: 1.5px solid var(--black);
     color: white;
@@ -175,6 +197,11 @@ html {
     padding: 1rem;
 }
 
+.product-row {
+  background-color: var(--tan);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 
 .corner-emoji {
     border: 2px solid var(--green);
