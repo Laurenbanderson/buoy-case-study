@@ -14,7 +14,6 @@
 
 html {
     box-sizing: border-box;
-    padding: 2rem;
   }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -28,6 +27,11 @@ html {
     font-size: 2rem;
     font-weight: 300;
     font-style: italic;
+  }
+
+  h5 {
+    font-weight: 800;
+    font-size: 2.5rem;
   }
 
   body {
@@ -201,6 +205,14 @@ html {
   background-color: var(--tan);
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.product-bottom {
+    width: 23%;
+    position: relative;
+    display: block;
+    background-color: var(--tan);
+    padding: 1rem;
 }
 
 .corner-emoji {
@@ -380,6 +392,34 @@ html {
   border-radius: 0.3rem;
   font-size: 0.9rem;
   cursor: pointer;
+}
+
+/* Hero Section ================================== */
+.hero-section {
+  background-image: url('../images/hero-img.webp');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  color: white;
+  margin: 0;
+}
+
+.hero-text {
+  max-width: 50%;
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+
+.hero-buttons {
+  padding-left: 3rem;
+  display: flex;
+  gap: 1rem;
+}
+
+/* First content =========================== */
+.first-content {
+  padding-top: 2rem;
+  padding-left: 2rem;
 }
 
 /* Footer ================================== */
