@@ -30,7 +30,7 @@ html {
   }
 
   h5 {
-    font-weight: 800;
+    font-weight: 500;
     font-size: 2.5rem;
   }
 
@@ -595,6 +595,10 @@ html {
   max-width: 50%;
   padding-left: 3rem;
   padding-top: 2rem;
+}
+
+.hero-text-small {
+  font-weight: 500;
 }
 
 .hero-buttons {
