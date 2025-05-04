@@ -56,6 +56,13 @@ html {
 
   }
 
+  .div-line {
+    height: 0.5px;
+    background-color: var(--black);
+    padding: 0;
+    margin: 0;
+  }
+
   .component-name {
     font-size: 1.5rem;
     font-weight: 600;
@@ -86,6 +93,18 @@ html {
     border-radius: 2rem;
     padding-right: 4rem;
     padding-left: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+
+  .button a:hover {
+    background-color: var(--black);
+    border: 1.5px solid var(--black);
+    color: white;
+    border-radius: 2rem;
+    padding-right: 4.5rem;
+    padding-left: 4.5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     text-align: center;
@@ -193,26 +212,77 @@ html {
 }
 
 /* Product ================================== */
+.product-all {
+  background-color: var(--tan);
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.product-header {
+  font-size: 1.8rem;
+  padding-right: 1rem;
+  padding-left: 2.8rem;
+  padding-top: 1rem;
+  margin: 0;
+}
+
+.product-top-text {
+  font-size: 0.8rem;
+  padding-right: 1rem;
+  padding-left: 2.8rem;
+}
+
+.text-warrow {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2rem;
+}
+
+.parrow {
+  width: 5%;
+  height: 5%;
+}
+
+.product-top-text {
+  display: flex;
+}
+
 .product-card {
     width: 23%;
     position: relative;
     display: inline-block;
     background-color: var(--tan);
-    padding: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    align-items: center;
+    margin-bottom: 0;
 }
 
 .product-row {
   background-color: var(--tan);
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
+  margin-top: 0;
+  display: flex;
+  justify-content: center
 }
 
 .product-bottom {
-    width: 23%;
     position: relative;
-    display: block;
+    display: flex;
     background-color: var(--tan);
-    padding: 1rem;
+    padding-right: 1rem;
+    padding-left: 2.8rem;
+    padding-bottom: 1rem;
+    gap: 1rem;
+    padding-top: 0;
+    justify-content: center;
+}
+
+.text1-item, .text2-item, .text3-item, .text4-item {
+  width: 23%;
 }
 
 .corner-emoji {
@@ -321,6 +391,113 @@ html {
   font-size: 0.75rem;
 }
 
+/* Seen in Print =========================== */
+
+
+.seen-in-print {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.sip-arrow {
+  margin-top: 8rem;
+  width: 5%;
+  height: 5%;
+  margin-left: 2.8rem;
+  margin-right: 2.8rem;
+}
+
+.mens-health {
+  max-width: 20%;
+}
+
+.womens-health {
+  max-width: 20%;
+}
+
+.in-touch {
+  max-width: 20%;
+}
+
+.in-print-text {
+  text-align: center;
+  margin-top: 0;
+}
+
+/* Squeezy content ========================= */
+.halfscreen-img {
+  border: 1px solid var(--black);
+  max-width: 50%;
+}
+
+.squeezy {
+  display: flex;
+  align-content: center;
+}
+
+.squeezy-text {
+  margin-left: 2.8rem;
+  margin-right: 2.8;
+  padding-bottom: 2rem;
+}
+
+.squeezy-headline {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.squeezy-emoji {
+  border: 1px solid var(--black);
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.se {
+  display: flex;
+  align-items: center;
+}
+
+/* Reivews ================================== */
+.review-section {
+  background-color: var(--tan);
+  margin: 0;
+  padding: 2.8rem;
+  display: flex;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+}
+
+.rating {
+  font-size: 1.5rem;
+  margin: 0;
+  padding-right: 20rem;
+}
+
+.read-reviews {
+  text-decoration: underline;
+  font-size: 1rem;
+}
+
+.trusted-reveiws {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.review-headline {
+  padding: 20rem;
+}
+
+
 /* Content 3 ================================== */
 .main-content-3 {
   display: flex;
@@ -418,8 +595,7 @@ html {
 
 /* First content =========================== */
 .first-content {
-  padding-top: 2rem;
-  padding-left: 2rem;
+  padding: 2rem;
 }
 
 /* Footer ================================== */
