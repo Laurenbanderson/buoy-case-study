@@ -425,7 +425,7 @@ html {
   margin-top: 0;
 }
 
-/* Squeezy content ========================= */
+/* Squeezy & Habits content ========================= */
 .halfscreen-img {
   border: 1px solid var(--black);
   max-width: 50%;
@@ -445,6 +445,7 @@ html {
 .squeezy-headline {
   font-size: 2rem;
   margin-bottom: 1rem;
+  font-weight: 300;
 }
 
 .squeezy-emoji {
@@ -466,6 +467,10 @@ html {
   align-items: center;
 }
 
+.subcribe-click {
+  text-decoration: underline;
+  font-weight: 500;
+}
 /* Reivews ================================== */
 .review-section {
   background-color: var(--tan);
@@ -502,6 +507,7 @@ html {
 .main-content-3 {
   display: flex;
   flex-direction: row;
+  margin: 2.8rem;
 }
 .heading-block-3 {
   width: 70rem;
@@ -521,6 +527,10 @@ html {
 
 .link-3 {
   text-decoration: underline;
+}
+
+.people {
+  margin-right: 1rem;
 }
 
 /* Main Header ================================== */
